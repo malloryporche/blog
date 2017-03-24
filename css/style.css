@@ -1,4 +1,35 @@
+/* Base styles */
 body {
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: transparent;
+  color: white; }
+
+h1, h2, p {
+  text-align: center; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 80px;
+  font-weight: 700; }
+
+p {
+  font-size: 18px; }
+
+ul li {
+  display: inline-block; }
+
+/* Image background */
+html {
+  background: url(../imgs/owl.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.header img {
+  margin: 30px;
+  height: 50px; }
 
 /*# sourceMappingURL=style.css.map */
